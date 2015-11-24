@@ -1,0 +1,24 @@
+{
+  "name": "purescript-midi",
+  "description": "PureScript MIDI",
+  "keywords": [
+    "music",
+    "midi",
+    "purescript"
+  ],
+  "ignore": [
+    "**/.*",
+    "bower_components",
+    "node_modules",
+    "output",
+    "tests",
+    "js",
+    "tmp",
+    "bower.json",
+    "package.json"
+  ],
+  "dependencies": {
+    "purescript-foldable-traversable":  "*",
+    "midi":                             "*"
+  }
+}

@@ -1,0 +1,6 @@
+#+title:purescript-midi
+
+* Build
+
+Run ~make~. See ~Makefile~ for details.
+

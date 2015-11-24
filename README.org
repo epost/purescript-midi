@@ -8,4 +8,4 @@ Alpha-stage experiments towards a MIDI library, based on MIDI.js.
 : pulp dep install
 : pulp browserify > bundle.js
 
-The last step can be done using ~make~; see ~Makefile~ for details.
+Alternatively, use ~npm run build~.

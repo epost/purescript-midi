@@ -13,11 +13,11 @@ foreign import data MIDI :: !
 
 foreign import loadPlugin :: forall e. PluginConfigRec -> (Unit -> Eff (midi :: MIDI | e) Unit) -> Eff (midi :: MIDI | e) Unit
 
-foreign import noteOn     :: forall e. Channel -> NoteNumber -> Velocity -> Delay  -> Eff (midi :: MIDI | e) Unit
+foreign import noteOn     :: forall e. Channel -> NoteNumber -> Velocity -> Delay               -> Eff (midi :: MIDI | e) Unit
 
-foreign import noteOff    :: forall e. Channel -> NoteNumber ->             Delay  -> Eff (midi :: MIDI | e) Unit
+foreign import noteOff    :: forall e. Channel -> NoteNumber ->             Delay               -> Eff (midi :: MIDI | e) Unit
 
-foreign import setVolume  :: forall e. Channel -> Velocity                         -> Eff (midi :: MIDI | e) Unit
+foreign import setVolume  :: forall e. Channel -> Velocity                                      -> Eff (midi :: MIDI | e) Unit
 
 
 type PluginConfigRec =

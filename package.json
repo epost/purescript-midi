@@ -1,0 +1,31 @@
+{
+  "name": "purescript-midi",
+  "version": "0.1.0",
+  "description": "PureScript MIDI",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "purescript",
+    "midi",
+    "music"
+  ],
+  "author": "Erik Post",
+  "license": "MIT",
+  "dependencies": {
+    "midi": "^0.9.4",
+    "zmidi": "^0.1.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/epost/purescript-midi.git"
+  },
+  "bugs": {
+    "url": "https://github.com/epost/purescript-midi/issues"
+  },
+  "homepage": "https://github.com/epost/purescript-midi#readme"
+}

@@ -1,6 +1,11 @@
 #+title:purescript-midi
 
+Alpha-stage experiments towards a MIDI library, based on MIDI.js.
+
 * Build
 
-Run ~make~. See ~Makefile~ for details.
+: npm install -g pulp purescript
+: pulp dep install
+: pulp browserify > bundle.js
 
+The last step can be done using ~make~; see ~Makefile~ for details.

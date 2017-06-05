@@ -9,7 +9,7 @@ type Channel = Int
 type Velocity = Int
 type Delay = Number
 
-foreign import data MIDI :: !
+foreign import data MIDI :: Effect
 
 foreign import loadPlugin :: forall e. PluginConfigRec -> (Unit -> Eff (midi :: MIDI | e) Unit) -> Eff (midi :: MIDI | e) Unit
 

@@ -1,10 +1,10 @@
 module Main where
 
-import Prelude
-import Control.Monad.Eff
+import Prelude (Unit, const, discard, (*))
+import Control.Monad.Eff (Eff)
 import Control.Monad.Eff.Console
 import Midi as Midi
-import Music
+import Music (Accidental(..), Note(..))
 
 main :: forall e. Eff (midi :: Midi.MIDI, console :: CONSOLE | e) Unit
 main = do
